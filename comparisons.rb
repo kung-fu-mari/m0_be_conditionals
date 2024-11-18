@@ -52,20 +52,37 @@ print "Is number_students less than or equal to 21? ", number_students <= 21, "\
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
+# Prints the result of the comparison: "Is 4 less than 9?" 
+# Evaluates to true.
 puts 4 < 9
 #YOU DO: Explain.
 
+# Defines a variable 'books' and assigns it the integer 3
 books = 3
+
+# Prints the result of the comparison: "Is 4 less than books?" 
+# Evaluates to false.
 puts 4 < books
 # YOU DO: Explain.
+#
 
+# Defines a variable 'friends' and assigns it the integer 6
 friends = 6
+
+# Defines a variable 'siblings' and assigns it the integer 2
 siblings = 2
+
+# Prints the result of the comparison: "Is friends greater than siblings?" 
+# Evaluates to true.
 puts friends > siblings
 # YOU DO: Explain.
 
+# Defines a variable 'attendees' and assigns it the integer 9
 attendees = 9
+# Defines a variable 'meals' and assigns it the integer 8
 meals = 8
+# Prints the result of the comparison: "Is attendees not equal to meals?" 
+# Evaluates to true.
 puts attendees != meals
 # YOU DO: Explain.
 
